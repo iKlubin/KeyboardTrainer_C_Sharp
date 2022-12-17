@@ -1,0 +1,156 @@
+﻿<Window x:Class="TypingTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TypingTest"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="720"
+        Width="1280"
+        Background="Transparent"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Border Height="720"
+                Width="1280"
+                Background="#2A2A2A"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                CornerRadius="20"
+                BorderBrush="DimGray"
+                BorderThickness="5">
+            <Image Margin="-42,-58,-570,-118" Source="/Image4.png" Visibility="Visible" Opacity="0.7" UseLayoutRounding="False" Stretch="Fill"/>
+        </Border>
+
+        <Rectangle x:Name="esc" Height="58" Margin="125,262,1094,0" Stroke="#FF656565" VerticalAlignment="Top" Width="61" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="esc"/>
+        <Rectangle x:Name="f1" HorizontalAlignment="Left" Height="58" Margin="221,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="61" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f1"/>
+        <Rectangle x:Name="f2" Fill="Transparent" HorizontalAlignment="Left" Height="58" Margin="293,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="61" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f2"/>
+        <Rectangle x:Name="f3" Fill="Transparent" HorizontalAlignment="Left" Height="58" Margin="366,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="61" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f3"/>
+        <Rectangle x:Name="f4" Fill="Transparent" HorizontalAlignment="Left" Height="58" Margin="437,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="61" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f4"/>
+        <Rectangle x:Name="f5" Fill="Transparent" HorizontalAlignment="Left" Height="58" Margin="532,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="61" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f5"/>
+        <Rectangle x:Name="f6" Fill="Transparent" HorizontalAlignment="Left" Height="58" Margin="605,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="61" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f6"/>
+        <Rectangle x:Name="f7" Fill="Transparent" HorizontalAlignment="Left" Height="58" Margin="676,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="62" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f7"/>
+        <Rectangle x:Name="f8" Fill="Transparent" HorizontalAlignment="Left" Height="58" Margin="748,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="62" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f8"/>
+        <Rectangle x:Name="f9" Fill="Transparent" HorizontalAlignment="Left" Height="58" Margin="845,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="62" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f9"/>
+        <Rectangle x:Name="f10" Fill="Transparent" HorizontalAlignment="Left" Height="58" Margin="918,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="62" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f10"/>
+        <Rectangle x:Name="f11" Fill="Transparent" HorizontalAlignment="Left" Height="58" Margin="988,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="62" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f11"/>
+        <Rectangle x:Name="f12" Fill="Transparent" HorizontalAlignment="Left" Height="58" Margin="1063,260,0,0" Stroke="#FF656565" VerticalAlignment="Top" Width="62" RadiusX="7" RadiusY="7" AutomationProperties.Name="f12" StrokeEndLineCap="Triangle" StrokeStartLineCap="Triangle" StrokeThickness="6"/>
+        <Rectangle x:Name="tilda" Height="58" Margin="124,341,1096,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="tilda"/>
+        <Rectangle x:Name="_1" Height="58" Margin="194,341,1026,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_1"/>
+        <Rectangle x:Name="_2" Height="58" Margin="264,341,956,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_2"/>
+        <Rectangle x:Name="_3" Height="58" Margin="333,341,887,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_3"/>
+        <Rectangle x:Name="_4" Height="58" Margin="403,341,817,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_4"/>
+        <Rectangle x:Name="_5" Height="58" Margin="472,341,748,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_5"/>
+        <Rectangle x:Name="_6" Height="58" Margin="542,341,678,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_6"/>
+        <Rectangle x:Name="_7" Height="58" Margin="611,341,609,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_7"/>
+        <Rectangle x:Name="_8" Height="58" Margin="681,341,538,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_8"/>
+        <Rectangle x:Name="_9" Height="58" Margin="750,341,468,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_9"/>
+        <Rectangle x:Name="_0" Height="58" Margin="819,341,400,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_0"/>
+        <Rectangle x:Name="min" Height="58" Margin="889,341,330,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="min"/>
+        <Rectangle x:Name="plus" Height="58" Margin="959,341,260,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="plus"/>
+        <Rectangle x:Name="backSpace" Height="58" Margin="1029,341,156,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="backSpace"/>
+        <Rectangle x:Name="backSlash" Height="58" Margin="1064,409,156,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="backSlash"/>
+        <Rectangle x:Name="_kSz" Height="58" Margin="993,409,227,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_kSz"/>
+        <Rectangle x:Name="_kSo" Height="58" Margin="924,409,296,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_kSo"/>
+        <Rectangle x:Name="p" Height="58" Margin="855,409,365,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="p"/>
+        <Rectangle x:Name="o" Height="58" Margin="785,409,435,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="o"/>
+        <Rectangle x:Name="i" Height="58" Margin="716,409,504,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="i"/>
+        <Rectangle x:Name="u" Height="58" Margin="645,409,575,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="u"/>
+        <Rectangle x:Name="y" Height="58" Margin="576,409,644,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="y"/>
+        <Rectangle x:Name="t" Height="58" Margin="506,409,714,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="t"/>
+        <Rectangle x:Name="r" Height="58" Margin="437,409,783,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="r"/>
+        <Rectangle x:Name="_e" Height="58" Margin="368,409,852,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_e"/>
+        <Rectangle x:Name="w" Height="58" Margin="298,409,922,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="w"/>
+        <Rectangle x:Name="q" Height="58" Margin="228,409,992,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="q"/>
+        <Rectangle x:Name="tab" Height="58" Margin="126,409,1061,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="tab"/>
+        <Rectangle x:Name="capsLock" Height="58" Margin="126,477,1045,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="capsLock" StrokeEndLineCap="Triangle"/>
+        <Rectangle x:Name="a" Height="58" Margin="247,477,974,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="a"/>
+        <Rectangle x:Name="s" Height="58" Margin="316,477,905,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="s"/>
+        <Rectangle x:Name="d" Height="58" Margin="384,477,837,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="d"/>
+        <Rectangle x:Name="f" Height="58" Margin="454,477,766,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="f"/>
+        <Rectangle x:Name="g" Height="58" Margin="524,477,695,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="g"/>
+        <Rectangle x:Name="h" Height="58" Margin="593,477,626,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="h"/>
+        <Rectangle x:Name="j" Height="58" Margin="663,477,556,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="j"/>
+        <Rectangle x:Name="k" Height="58" Margin="733,477,486,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="k"/>
+        <Rectangle x:Name="l" Height="58" Margin="801,477,417,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="l"/>
+        <Rectangle x:Name="_tZ" Height="58" Margin="871,477,347,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="_tZ"/>
+        <Rectangle x:Name="kv" Height="58" Margin="940,477,277,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="kv"/>
+        <Rectangle x:Name="enter" Height="58" Margin="1012,477,156,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="enter"/>
+        <Rectangle x:Name="rShift" Height="58" Margin="978,545,156,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="rShift"/>
+        <Rectangle x:Name="slash" Height="58" Margin="907,545,314,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="slash"/>
+        <Rectangle x:Name="dot" Height="58" Margin="837,545,384,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="dot"/>
+        <Rectangle x:Name="zpt" Height="58" Margin="768,545,453,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="zpt"/>
+        <Rectangle x:Name="m" Height="58" Margin="698,545,523,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="m"/>
+        <Rectangle x:Name="n" Height="58" Margin="629,545,592,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="n"/>
+        <Rectangle x:Name="b" Height="58" Margin="558,545,663,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="b"/>
+        <Rectangle x:Name="v" Height="58" Margin="490,545,731,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="v"/>
+        <Rectangle x:Name="c" Height="58" Margin="420,545,801,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="c"/>
+        <Rectangle x:Name="x" Height="58" Margin="351,545,870,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="x"/>
+        <Rectangle x:Name="z" Height="58" Margin="281,545,940,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="z"/>
+        <Rectangle x:Name="lShift" Height="58" Margin="125,545,1009,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="lShift" StrokeEndLineCap="Triangle"/>
+        <Rectangle x:Name="lCtrl" Height="67" Margin="125,613,1062,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" AutomationProperties.Name="lCtrl" StrokeEndLineCap="Triangle" StrokeStartLineCap="Triangle" StrokeThickness="6"/>
+        <Rectangle x:Name="lWin" Height="67" Margin="230,613,978,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="lWin"/>
+        <Rectangle x:Name="lAlt" Height="67" Margin="312,613,896,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="lAlt"/>
+        <Rectangle x:Name="space" Height="67" Margin="395,613,502,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="space"/>
+        <Rectangle x:Name="rAlt" Height="67" Margin="790,613,418,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="rAlt"/>
+        <Rectangle x:Name="rWin" Height="67" Margin="872,613,336,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="rWin"/>
+        <Rectangle x:Name="mCtrl" Height="67" Margin="955,613,253,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="mCtrl"/>
+        <Rectangle x:Name="rCtrl" Height="67" Margin="1038,613,158,0" Stroke="#FF656565" VerticalAlignment="Top" RadiusX="7" RadiusY="7" StrokeThickness="6" AutomationProperties.Name="rCtrl"/>
+
+        <TextBlock x:Name="name1"
+                       Height="75"
+                       Width="530"
+                       FontFamily="JetBrains Mono"
+                       FontSize="50"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Center"
+                   Margin="0,15,0,0" FontWeight="Bold">
+            <TextBlock.Effect>
+                <DropShadowEffect BlurRadius="30"
+                                      ShadowDepth="2"
+                                      Direction="-90"
+                                      Color="#FEF200" />
+            </TextBlock.Effect><Run Foreground="#FFFEF200" Text=" Keyboard Trainer"/><LineBreak/><Run Foreground="#FFFEF200"/><LineBreak/><Run Foreground="#FFFEF200"/></TextBlock>
+        <Ellipse Fill="Red"
+                 Height="35"
+                 Width="35"
+                 VerticalAlignment="Top"
+                 HorizontalAlignment="Right"
+                 Margin="0,20,20,0">
+            <Ellipse.Effect>
+                <DropShadowEffect BlurRadius="50"
+                                      ShadowDepth="2"
+                                      Direction="60"
+                                      Color="Tomato"/>
+
+            </Ellipse.Effect>
+        </Ellipse>
+
+        <Ellipse Fill="#FF7F1504"
+                 Height="23"
+                 Width="24"
+                 VerticalAlignment="Top"
+                 HorizontalAlignment="Right"
+                 Margin="0,26,25,0"/>
+        <Button x:Name="CloseBtn"
+                Height="35"
+                Width="35"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Right"
+                Margin="0,20,20,0"
+                Click="CloseBtn_Click" Background="{x:Null}" BorderBrush="#00707070" Opacity="0"
+                />
+        <RichTextBox x:Name="textBox" Foreground="DimGray" CaretBrush="Yellow" HorizontalAlignment="Center" Margin="0,123,0,0"  VerticalAlignment="Top" Width="1068" FontFamily="Cascadia Mono" FontSize="36" Background="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0,0,0,0" Height="88" PreviewTextInput="Text_PreviewTextInput"/>
+        <TextBlock x:Name="name1_Copy"
+            Height="75"
+            Width="141"
+            FontFamily="JetBrains Mono"
+            FontSize="42"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Margin="114,56,0,0" FontWeight="Bold" Text="0" Visibility="Visible" Foreground="White"/>
+    </Grid>
+</Window>
